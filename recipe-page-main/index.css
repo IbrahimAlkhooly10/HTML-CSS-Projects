@@ -2,4 +2,30 @@ body {
     background-color: #F3E5D8;
 }
 .container{
+    width: 735px;
+    background-color: white;
+    border-radius: 17px;
+    margin: auto;
+    margin-top: 130px;
+}
+.parent{
+    margin: 50px 0 0 57px;
+    padding-top: 40px;
+}
+img{
+    border-radius: 17px;
+    width: 625px;
+    height: 300px;
+    
+
+}
+h1{
+    font-size: 43px;
+    font-weight: 740;
+}
+.p1{
+    font-weight: 150;
+    font-family: sans-serif;
+    color: #55524D;
+    font-size: 16px;
 }
