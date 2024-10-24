@@ -35,10 +35,11 @@ h1{
 .preparation{
     font-family: sans-serif;
     background-color: #FDF7FC;
-    padding: 33px 3px 30px 20px;
+    padding: 20px 3px 20px 20px; 
     width: 620px;
     border-radius: 17px;
 }
+
 h3{
     color: #70324A;
 }
