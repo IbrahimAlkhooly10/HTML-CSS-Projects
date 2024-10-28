@@ -133,6 +133,9 @@ span{
     h2, h3 {
         font-size: 24px; /* Adjust header sizes */
     }
+    h2{
+        font-size: 35px;
+    }
 
     .p1, .last-p, .p3 {
         font-size: 14px; /* Smaller font size for paragraphs */
@@ -147,13 +150,12 @@ span{
         max-width: 295px;/* Reduce padding */
         margin-left: 25px;
     }
-    .span1, .span2, .span3, .span4 {
-    }
     .ingredients , .Instructions , .Nutrition{
         padding-left: 30px;
     }
     .nut{
         padding-left: 30px;
+        font-size: 35px;
     }
     .li2{
         width: 250px;
@@ -165,7 +167,28 @@ span{
     .li3{
         width: 260px;
     }
+    .span1{
+        margin-right: 0;
+        padding-left: 90px;
+    }
+    .span2{
+        margin-right: 0px;
+        padding-left: 107px;
+    }
+    .span3{
+        margin-right: 0px;
+        padding-left: 100px;
+    }
+    .span4{
+        padding-left: 123px;
+        padding-bottom: 50px;
+
+    }
     .hr{
-        color: #ff4000;
+        width: 275px;
+    }
+    .hr1{
+        width: 300px;
+        margin-left: 30px;
     }
 }
