@@ -38,6 +38,7 @@ h1{
     padding: 20px 3px 20px 20px; 
     width: 620px;
     border-radius: 17px;
+    line-height:25px;
 }
 
 h3{
@@ -47,7 +48,7 @@ ul{
     color: #55524D;
     font-family: sans-serif;
 }
-.li{
+.li2{
     line-height: 30px;
     padding-left: 20px; 
     color: #837F7C;
@@ -70,7 +71,7 @@ ol{
     
 }
 
-.li2{
+.li3{
     padding-left: 15px;
     line-height: 26px;
     color: #837F7C;
@@ -103,4 +104,68 @@ span{
 }
 .span4{
     padding-left: 258px;
+}
+@media all and (max-width:375px ) {
+    body{
+        background-color: white;
+        max-width: 350px;
+    }
+    .container {
+        margin: 0px; /* Reduce margins on smaller screens */
+        padding: 0px; /* Adjust padding */
+    }
+    .parent{
+        margin: 0px; /* Reduce margins on smaller screens */
+        padding: 0px; 
+        max-width: 300px;
+    }
+    img{
+        width: 365px;
+        border-radius: 0;
+        height: 200px;
+    }
+    h1 {
+        font-size: 38px;
+        margin-left: 30px;
+         /* Smaller font size */
+    }
+
+    h2, h3 {
+        font-size: 24px; /* Adjust header sizes */
+    }
+
+    .p1, .last-p, .p3 {
+        font-size: 14px; /* Smaller font size for paragraphs */
+    }
+    .p1{
+        font-size: 14px;
+        padding-left: 30px;
+    }
+
+
+    .preparation {
+        max-width: 295px;/* Reduce padding */
+        margin-left: 25px;
+    }
+    .span1, .span2, .span3, .span4 {
+    }
+    .ingredients , .Instructions , .Nutrition{
+        padding-left: 30px;
+    }
+    .nut{
+        padding-left: 30px;
+    }
+    .li2{
+        width: 250px;
+    }
+    .li{
+        width: 200px;
+        line-height: 30px;
+    }
+    .li3{
+        width: 260px;
+    }
+    .hr{
+        color: #ff4000;
+    }
 }
