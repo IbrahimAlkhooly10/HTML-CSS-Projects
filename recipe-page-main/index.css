@@ -108,11 +108,13 @@ span{
 @media all and (max-width:375px ) {
     body{
         background-color: white;
-        max-width: 350px;
+        max-width: 375px;
+        margin: 0;
     }
     .container {
         margin: 0px; /* Reduce margins on smaller screens */
         padding: 0px; /* Adjust padding */
+        width: 375px;
     }
     .parent{
         margin: 0px; /* Reduce margins on smaller screens */
@@ -120,7 +122,7 @@ span{
         max-width: 300px;
     }
     img{
-        width: 365px;
+        width: 380px;
         border-radius: 0;
         height: 200px;
     }
